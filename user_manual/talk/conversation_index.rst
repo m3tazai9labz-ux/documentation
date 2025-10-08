@@ -8,3 +8,4 @@ Conversations
    open_conversations
    federation
    files_integration
+   calendar_integration
