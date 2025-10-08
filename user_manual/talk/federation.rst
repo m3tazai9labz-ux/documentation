@@ -2,10 +2,6 @@ Federation
 ==========
 With Federation feature, users can create conversations across different federated Talk instances and use Talk features as if they were on a same server.
 
-.. FIXME clarify the statement
-
-**Important** Under current development. Basic chat features are available, more to come in the future!
-
 Feature is required to be set up by the system administration.
 
 Sending an invitation
@@ -35,3 +31,5 @@ By accepting the invite, conversation will appear in the list as any other one.
 
 .. image:: images/federation-conversations-list.png
    :width: 400px
+
+You can use it further to chat with participants from other federated servers, join calls and use other available Talk features.

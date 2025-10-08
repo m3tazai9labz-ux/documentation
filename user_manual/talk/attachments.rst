@@ -30,4 +30,38 @@ All users will be able to click the files to view, edit or download them, irresp
 .. image:: images/editing-document-in-chat-room.png
    :width: 600px
 
-.. FIXME Add polls, voice messages?, shared items view
+Polls in chat
+-------------
+
+You can create a poll in groups chats from the new message additional actions.
+
+.. image:: images/create-new-poll.png
+   :width: 400px
+
+A poll has two settings:
+
+- **Anonymous polls**: Participants cannot see who voted for which option.
+- **Allow multiple choices**: Participants can select more than one option.
+
+You can also import polls for auto-fill and export polls as JSON files to save it locally.
+
+.. image:: images/import-poll.png
+   :width: 400px
+
+Closing poll is possible from the poll dialog.
+
+.. image:: images/close-poll.png
+   :width: 400px
+
+As a moderator, you can create the poll directly or you can save it as a draft to edit it later. 
+
+.. image:: images/save-poll-draft.png
+   :width: 400px
+
+You can find poll drafts in ``Shared items`` tab or next to the poll title input field.
+
+.. image:: images/poll-drafts-list.png
+   :width: 400px
+
+
+.. FIXME voice messages?, shared items view

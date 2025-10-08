@@ -57,11 +57,6 @@ For compliance reasons with various privacy rights, it is possible to ask partic
 If recording consent is enabled, every participant, including moderators, will see a highlighted section in the "Media settings" before joining a call.
 This section informs participants that the call may be recorded. To give explicit consent for recording, participants must check the box. If they do not give consent, they will not be allowed to join the call.
 
-.. image:: images/give-recording-consent.png
-    :width: 500px
-
-|
-
 .. image:: images/give-recording-consent-checked.png
     :width: 500px
 

@@ -8,7 +8,7 @@ Starting a call
 When you're in a conversation, you can start a call any time with the ``Start call`` button. Other participants will get notified and can join the call.
 
 .. image:: images/device-settings-before-call.png
-    :width: 400px
+    :width: 600px
 
 If somebody else has started a call already, the button will change in a green ``Join call`` button.
 
@@ -29,6 +29,11 @@ From media settings dialog, you can also change the background of your video.
 .. image:: images/background-settings-in-call.png
     :width: 400px
 
+All these settings are also available as direct actions in the bottom bar.
+
+.. image:: images/call-bottom-bar.png
+    :width: 300px
+
 You can change other settings in the ``Talk settings`` dialog.
 
 .. image:: images/talk-settings.png
@@ -43,10 +48,17 @@ If video from your camera is also available, other participants will see it in a
 .. image:: images/share-screen-with-camera.png
     :width: 700px
 
+You can zoom in and out of the shared screen with mouse wheel, double click or touchpad gestures.
+
 Changing view in a call
 -----------------------
 
-You can switch the view in a call with the little four-block icon in the top-right between promoted-view and grid view. The grid view will show everyone equally big and if the people do not fit on the screen, buttons will appear on the left and right that let you navigate.
+You can switch the view in a call in the bottom bar between promoted view and grid view. 
+
+.. image:: images/call-view-toggle-button.png
+    :width: 300px
+
+The grid view will show as many people as the screen can fit, allowing navigation with buttons on the left and right.
 
 .. image:: images/talk-grid-view.png
     :width: 700px
@@ -56,7 +68,30 @@ The promoted view shows the speaker large and others in a row below. If the peop
 .. image:: images/talk-promoted-view.png
     :width: 700px
 
+Download call participants list
+-------------------------------
 
+You can download the list of participants in a call from the ``...`` menu in the top bar. This will download a CSV file with the names and email addresses of all participants in the call.
+
+.. image:: images/download-participants-list.png
+   :width: 400px
+
+The table in the CSV file contains the following columns:
+
+- **Name**: The name of the participant.
+- **Email**: The email address of the participant.
+- **Type**: Indicates whether the participant is a registered user or a guest.
+- **Identifier**: Unique identifier for the participant.
+
+Call live transcription
+-----------------------
+
+Call live transcription allows to transcribe the speech in real-time during a call. It is set up by the system administration (High-performance backend and `Live Transcription App <https://apps.nextcloud.com/apps/live_transcription>`_ are required).
+Moderators need to set the language of the transcription in the conversation settings. All participants then can enable or disable the transcription for themselves in the call bottom bar.
+When enabled, the transcription will appear in the bottom and will be updated in real-time.
+
+.. image:: images/call-transcription.png
+   :width: 500px
 
 
 
